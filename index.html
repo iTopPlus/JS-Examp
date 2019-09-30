@@ -1,0 +1,201 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/rainbow.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/javascript.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+        <div class="container">
+            <div class="card" style="width: 70%; margin: 20px auto;">
+                <div class="card-body">
+                    <h5 class="card-title">ค่าของ x คืออะไร</h5>
+                    <h6 class="card-subtitle mb-2 text-muted"></h6>
+                    <p class="card-text">
+                        <pre>
+                            <code class="javascript">
+    let x,y = 36;
+                            </code>
+                        </pre>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 70%; margin: 20px auto;">
+                <div class="card-body">
+                    <h5 class="card-title">หลังจากรันโค้ดต่อไปนี้ สิ่งใดจะพิมพ์ไปบน console ?</h5>
+                    <h6 class="card-subtitle mb-2 text-muted"></h6>
+                    <p class="card-text">
+                        <pre><code class="javascript">
+    var x = 5;
+    const foo = {
+        x: 10,
+        getX(){
+            reeturn this.x;
+            }
+    }
+    const bar = {
+        x:20
+    }
+    bar.getX = foo.getX;
+    console.log(bar.getX());
+                        </code></pre>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 70%; margin: 20px auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">หลังจากรันโค้ดต่อไปนี้ ข้อความใดจะพิมพ์บน console ?</h5>
+                        <h6 class="card-subtitle mb-2 text-muted"></h6>
+                        <p class="card-text">
+                            <pre>
+                                <code class="javascript">
+    const basket = {
+        apple: 2,
+        banana: 4,
+        orange: 6,
+        strawberry: 8
+    }
+    for (const fruit in basket) {
+        console.log(fruit);
+    }
+                                </code>
+                            </pre>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 70%; margin: 20px auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">ผลลัพธ์ของ 10 % 5 คืออะไร ?</h5>
+                        <h6 class="card-subtitle mb-2 text-muted"></h6>
+                        <p class="card-text">
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 70%; margin: 20px auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">ค่าของ x คืออะไร ?</h5>
+                        <h6 class="card-subtitle mb-2 text-muted"></h6>
+                        <p class="card-text">
+                            <pre>
+                                <code class="javascript">
+    let x = 1 + "2";
+                                </code>
+                            </pre>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 70%; margin: 20px auto;">
+                        <div class="card-body">
+                            <h5 class="card-title">คำสั่งใดมีผลทำให้ตัวแปร result เป็นตัวพิมพ์เล็กทั้งหมด ?</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"></h6>
+                            <p class="card-text">
+                                <pre>
+                                    <code class="javascript">
+    let result = 'Hello World';
+                                </code>
+                            </pre>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 70%; margin: 20px auto;">
+                        <div class="card-body">
+                            <h5 class="card-title">คำสั่งที่ใช้สำหรับการขึ้นบรรทัดใหม่ในสตริง?</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"></h6>
+                            <p class="card-text">
+                            </pre>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 70%; margin: 20px auto;">
+                        <div class="card-body">
+                            <h5 class="card-title">หลังจากรันโค้ดต่อไปนี้ ข้อความใดจะพิมพ์บน console ?</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"></h6>
+                            <p class="card-text">
+                                <pre>
+                                    <code class="javascript">
+    const fruits = ["apple", "banana", "strawberry"];
+    fruits
+        .map((fruit) => "amazing " + fruit)
+        .forEach((fruit) => {
+            console.log(fruit);
+        }) 
+                                </code>
+                            </pre>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 70%; margin: 20px auto;">
+                        <div class="card-body">
+                            <h5 class="card-title">หลังจากรันโค้ดต่อไปนี้ ข้อความใดจะพิมพ์บน console ?</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"></h6>
+                            <p class="card-text">
+                                <pre>
+                                    <code class="javascript">
+    const fruits = ["apple", "banana", "strawberry"];
+    fruits
+        .filter((fruit) => fruit.length > 5)
+        .forEach((fruit) => {
+            console.log(fruit);
+        }) 
+                                </code>
+                            </pre>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 70%; margin: 20px auto;">
+                        <div class="card-body">
+                            <h5 class="card-title">คำสั่งใด ทำให้สามารถพิมพ์ชื่อและนามสกุลไปที่ console ได้ ?</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"></h6>
+                            <p class="card-text">
+                                <pre>
+                                    <code class="javascript">
+    let person = {
+        firstName: "Worawut",
+        lastName: "Boonton",
+        fullName: function() {
+            return this.firstName + " " + this.lastName;
+        }
+    };
+                                </code>
+                            </pre>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 70%; margin: 20px auto;">
+                        <div class="card-body">
+                            <h5 class="card-title">จงอธิบายการทำงานของโค้ดด้านล่าง</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"></h6>
+                            <p class="card-text">
+                                <pre>
+                                    <code class="javascript">
+    function asyncJob() {
+        console.log("Fetching");
+        await fetchUserData(); // `fetchUserData` returns an instace of Promise
+        console.log("Fetched");
+    }
+    asyncJob();
+                                </code>
+                            </pre>
+                        </p>
+                    </div>
+                </div>
+
+        </div>
+</body>
+</html>
